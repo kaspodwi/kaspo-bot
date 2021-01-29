@@ -41,7 +41,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       'host': 'Host',
       'advanced': 'Advanced',
       'info': 'Info',
-      '': 'No Category',
+      '': ',
     }
     for (let plugin of Object.values(global.plugins))
       if (plugin && 'tags' in plugin)
@@ -75,7 +75,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ║
 ║ Uptime: *%uptime*
 ║ Database: %totalreg nomor
-║ Github: https://github.com/kaspodwi/kaspo-bot.git
+║ FN: Kaspo
 ╚══✪
 %readmore`
     let header = conn.menu.header || '╔══✪〘 %category 〙'
